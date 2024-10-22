@@ -5,73 +5,73 @@
     "courses":[
         {
             "id":1,
-            "title":"Game Development",
+            "title":"Generative aftificial intelligence",
             "slug": "game-development",
-        "description": "lorem ipsum jijo",
+        "description": "Use generative AI to create dynamic, personalized content and optimize workflows, unlocking creativity and efficiency for advanced users.",
         "price": 99.99,
         "instructor": "mali",
         "isFeatured": true,
-        "image":"h"
+        "image":"/ai-pic.png"
 
         },
 
         {
             "id":1,
-            "title":"Game Development",
+            "title":"Next.js",
             "slug": "game-development",
-        "description": "lorem ipsum jijo",
+        "description": "Level up your Next.js expertise with cutting-edge techniques designed for intermediate to advanced developers.",
         "price": 99.99,
         "instructor": "mali",
         "isFeatured": false,
-        "image":"h"
+        "image":"/next.png"
 
         },
 
         {
             "id":1,
-            "title":"Game Development",
+            "title":"Digital marketing",
             "slug": "game-development",
-        "description": "lorem ipsum jijo",
+        "description": "Level up your digital marketing skills with advanced strategies and create impactful campaigns from concept to execution.",
         "price": 99.99,
         "instructor": "mali",
         "isFeatured": true,
-        "image":"h"
+        "image":"/digi.png"
 
         },
 
         {
             "id":1,
-            "title":"Game Development",
+            "title":"Social marketing",
             "slug": "game-development",
-        "description": "lorem ipsum jijo",
+        "description": "Use Next.js for SEO, dynamic meta tags, fast load times, and personalized content to supercharge your social marketing efforts.",
         "price": 99.99,
         "instructor": "mali",
         "isFeatured": false,
-        "image":"h"
+        "image":"/social.png"
 
         },
 
         {
             "id":1,
-            "title":"Game Development",
+            "title":"Amazon",
             "slug": "game-development",
-        "description": "lorem ipsum jijo",
+        "description": "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
         "price": 99.99,
         "instructor": "mali",
         "isFeatured": true,
-        "image":"h"
+        "image":"/amaz.png"
 
         },
 
         {
             "id":1,
-            "title":"Game Development",
+            "title":"Content marketing",
             "slug": "game-development",
-        "description": "lorem ipsum jijo",
+        "description": "Learn the art of jazz improvisation with this course designed for all levels.",
         "price": 99.99,
         "instructor": "mali",
         "isFeatured": true,
-        "image":"h"
+        "image":"/content.png"
 
         }
     ]

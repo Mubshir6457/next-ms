@@ -26,13 +26,6 @@ function addVaribleForColors({addBase,theme}:PluginAPI){
       ":root": newVars,
     });
   }
-
-
-
-
-
-
-
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -48,6 +41,12 @@ const config: Config = {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
       },
+      scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+      },
+
+
+
       keyframes: {
         spotlight: {
           "0%": {
@@ -66,7 +65,8 @@ const config: Config = {
         },
       },
     },
-  },
-  plugins: [addVaribleForColors],
-};
+  }
+  
+ 
 export default config;
+

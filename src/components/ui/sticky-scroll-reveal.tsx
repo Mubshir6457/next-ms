@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { motion } from "framer-motion";
 import { cn } from "@/app/lib/utils";
+import { linearGradient } from "framer-motion/client";
 
 export const StickyScroll = ({
   content,
@@ -39,17 +40,18 @@ export const StickyScroll = ({
     );
     setActiveCard(closestBreakpointIndex);
   });
+    const backgroundColors =[
+     "var(--slate-900) ",
+     "var(--black)",
+     "var(--red-900)",
 
-  const backgroundColors = [
-    "var(--slate-900)",
-    "var(--black)",
-    "var(--neutral-900)",
-  ];
-  const linearGradients = [
-    "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
-    "linear-gradient(to bottom right, var(--pink-500), var(--indigo-500))",
-    "linear-gradient(to bottom right, var(--orange-500), var(--yellow-500))",
-  ];
+    ];
+    const linearGradients =[
+      "liner-gradient(to bottom right, var(--pink-500), var(--indego-500))",
+      "liner-gradient(to bottom right, var(--pink-500), var(--indego-500))",
+      "liner-gradient(to bottom right, var(--pink-500), var(--indego-500))"
+    ]
+   
 
   const [backgroundGradient, setBackgroundGradient] = useState(
     linearGradients[0]
