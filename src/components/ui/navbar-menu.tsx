@@ -1,4 +1,4 @@
-"use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -14,7 +14,7 @@ const transition = {
 };
 
 export const MenuItem = ({
-  
+  setActive,
   active,
   item,
   children,
@@ -25,7 +25,7 @@ export const MenuItem = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <div onMouseEnter={() => (item)} className="relative ">
+    <div onMouseEnter={() => setActive(item)} className="relative ">
       <motion.p
         transition={{ duration: 0.3 }}
         className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
@@ -61,7 +61,7 @@ export const MenuItem = ({
 };
 
 export const Menu = ({
-  
+  setActive,
   children,
 }: {
   setActive: (item: string | null) => void;
@@ -69,7 +69,7 @@ export const Menu = ({
 }) => {
   return (
     <nav
-      onMouseLeave={() => (null)} // resets the state
+      onMouseLeave={() => setActive(null)} // resets the state
       className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
     >
       {children}
