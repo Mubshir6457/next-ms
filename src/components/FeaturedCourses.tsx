@@ -2,6 +2,7 @@
 
 import courseData from '@/components/data/code_courses.json'
 
+
 import { BackgroundGradient } from './ui/background-gradient';
 import Link from 'next/link';
 

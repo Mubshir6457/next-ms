@@ -2,6 +2,7 @@
 
 
 import { AnimatedTooltip } from "./ui/animated-tooltip";
+import Image from "next/image";
 
 
 

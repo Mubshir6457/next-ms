@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/app/lib/utils";
-import { MotionConfig } from "framer-motion";
+
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({

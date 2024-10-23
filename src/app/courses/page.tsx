@@ -3,8 +3,9 @@ import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import courseData from '@/components/data/code_courses.json'
-import { image } from "framer-motion/client"; 
-import { Button } from "@/components/ui/moving-border";
+
+
+
 
 
 
