@@ -2,6 +2,7 @@ import { PluginAPI } from "tailwindcss/types/config";
 import type { Config } from "tailwindcss";
 import { sub } from "framer-motion/client";  
 import { MovingBorder } from "@/components/ui/moving-border";
+import plugin from "tailwindcss";
 
 function addVaribleForColors({addBase,theme}:PluginAPI){
   const allColors =theme('colors' ,{}) ||{}
@@ -65,6 +66,16 @@ const config: Config = {
         },
       },
     },
+    plugins:[
+      addVaribleForColors,
+
+
+
+    ]
+
+
+
+
   }
   
  

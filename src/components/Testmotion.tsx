@@ -1,22 +1,8 @@
-"use client";
+import React from 'react'
+import { InfiniteMovingCards } from './ui/Infinite-moving-cards';
 
 
-import { InfiniteMovingCards } from "./ui/Infinite-moving-cards";
-import React, { useEffect, useState } from "react";
-
-export function InfiniteMovingCardsDemo() {
-  return (
-    <div className="  h-[40rem] rounded-md flex flex-col antialiased bg-black  items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="fast"
-      />
-    </div>
-  );
-}
-
-const testimonials = [
+const MotionConfig = [
   {
     quote:
       "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
@@ -50,4 +36,40 @@ const testimonials = [
 
 
 
-export default InfiniteMovingCardsDemo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   export function Testmotion() {
+  return (
+    <div className='h-[40rem] rounded-md flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center'>
+     <InfiniteMovingCards items={MotionConfig}
+     direction="right"
+        speed="slow"
+     
+     
+     
+     
+     />
+
+
+
+
+    </div>
+  )
+}
+
+export default Testmotion

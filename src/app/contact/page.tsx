@@ -1,56 +1,52 @@
-import React from 'react'
-import { BackgroundGradient } from '@/components/ui/background-gradient'
-import { Meteors } from '@/components/ui/meteors'
+"use client";
 
+import React from 'react';
+import { Meteors } from '@/components/ui/meteors';
+import Image from 'next/image';
+import avaImage from '@/app/public/my-pic.jpg'
 
-function page() {
+const ContactPage = () => {
   return (
-    <div className='min-h-screen bg-slate-900 py-12 py-36 text-center'>
-        <h1 className=' text-white md:text-8x1 text-extrabold text-center'>Contact Us</h1>
-        <div className="w-full">
-      <div className=" w-full relative max-w-lg-9x1">
-        <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl justify-" />
-        <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
-          <div className="h-5 w-5 rounded-full border flex items-center justify-center mb-4 border-gray-500">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="currentColor"
-              className="h-2 w-2 text-gray-300"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25"
-              />
-            </svg>
-          </div>
- 
-          <h1 className="font-bold text-xl text-white mb-4 relative z-50">
-            Meteors because they&apos;re cool
+    <div className="min-h-screen bg-[#0a0e27] py-12 pt-36 relative overflow-hidden flex justify-center items-center">
+      <Meteors number={30} className="opacity-70" />
+      <div className="flex bg-[#111827] bg-opacity-60 backdrop-filter backdrop-blur-lg rounded-lg shadow-lg overflow-hidden">
+        <div className="p-8 transform transition-transform hover:scale-105">
+          <h1 className="text-lg md:text-5xl text-center font-sans font-bold mb-8 text-white">
+            Contact Us
           </h1>
- 
-         
- 
-          <button className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
-            Explore
-          </button>
- 
-          {/* Meaty part - Meteor effect */}
-          <Meteors number={20} />
+          <form className="flex flex-col items-center">
+            <input
+              type="text"
+              placeholder="Your Name"
+              className="mb-4 p-2 rounded-lg w-72 bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              className="mb-4 p-2 rounded-lg w-72 bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            <textarea
+              placeholder="Your Message"
+              className="mb-4 p-2 rounded-lg w-72 bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            ></textarea>
+            <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+              Send Message
+            </button>
+          </form>
+        </div>
+        <div className="hidden md:flex items-center justify-center w-1/2">
+          <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-gray-700">
+            <Image
+              src={avaImage}
+              alt="Contact Us"
+              fill
+              className="rounded-full"
+            />
+          </div>
         </div>
       </div>
     </div>
   );
-
-        
-        
-      
-    </div>
-    
-  )
 }
 
-export default page
+export default ContactPage;

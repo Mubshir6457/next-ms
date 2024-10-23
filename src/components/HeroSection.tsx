@@ -16,11 +16,13 @@ const HeroSection= () =>
         <p className="mt-8 font-bold text-base text-neutral-300 max-w-lg  mx-auto">
         Dive into our comprehensive coding courses and transform your development journey today. Whether you are a beginner or looking to refine your programming skills, join us to unlock your true coding potential.</p>
          <div className="mt-4 font normal text-base md:text-text-neutral-300 max-w-full mx-auto">
-         <Link href="/coures">
+         <Link href="/our coures">
          <Button borderRadius="1.75rem" className= "bg-black text-white boarder-slate-800">
           EXPLORE COURES
          </Button>
+         
          </Link>
+         
          </div>
       </div>
     </div>

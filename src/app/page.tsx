@@ -10,6 +10,7 @@ import MusicTestmotion from '@/components/Testmotion'
 import WhyChooseUs from '@/components/WhyChooseUs'
 
 import React from 'react'
+import Testmotion from '@/components/Testmotion'
 
 
 
@@ -20,7 +21,7 @@ const page = () => {
       <FeaturedCoures/>
       <WhyChooseUs/>
       <FeaturedWebinars/>
-      <MusicTestmotion/>
+      <Testmotion/>
       <Instucter/>
       <Footer/>
       
