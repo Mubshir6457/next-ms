@@ -33,43 +33,14 @@ const MotionConfig = [
     title: "Moby-Dick",
   },
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    export function Testmotion() {
   return (
     <div className='h-[40rem] rounded-md flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center'>
      <InfiniteMovingCards items={MotionConfig}
      direction="right"
         speed="slow"
-     
-     
-     
-     
      />
-
-
-
-
     </div>
   )
 }
-
 export default Testmotion

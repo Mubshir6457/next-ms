@@ -9,6 +9,7 @@ import {
 } from "framer-motion";
 import { useRef } from "react";
 import { cn } from "@/app/lib/utils";
+import { ButtonHTMLAttributes } from "react";
 
 export function Button({
   borderRadius = "1.75rem",
@@ -22,13 +23,13 @@ export function Button({
 }: {
   borderRadius?: string;
   children: React.ReactNode;
-  as?: any;
+  as?: React.ElementType;
   containerClassName?: string;
   borderClassName?: string;
   duration?: number;
   className?: string;
-  [key: string]: any;
-}) {
+ 
+}& ButtonHTMLAttributes<HTMLButtonElement>) {
   return (
     <Component
       className={cn(
@@ -80,8 +81,8 @@ export const MovingBorder = ({
   duration?: number;
   rx?: string;
   ry?: string;
-  [key: string]: any;
-}) => {
+  
+}& React.SVGProps<SVGSVGElement>) => {
   const pathRef = useRef<any>();
   const progress = useMotionValue<number>(0);
 
