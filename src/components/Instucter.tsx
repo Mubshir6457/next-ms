@@ -1,8 +1,8 @@
 'use client'
 
 
-import { AnimatedTooltip } from "./ui/animated-tooltip";
-import Image from "next/image";
+
+
 
 
 
@@ -47,7 +47,7 @@ function Instucter() {
       
         <h2 className="text-2x1 md:text-4x1 lg:text-full text-white font-extrabold text-center mb-8">Meet Our Instucture</h2>
     
-      <AnimatedTooltip items={instucter} />
+      
       
  
 

@@ -1,6 +1,3 @@
-'use client'
-
-
 import { cn } from "@/app/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
@@ -8,8 +5,6 @@ import { useState } from "react";
 
 export const HoverEffect = ({
   items,
-
-
   className,
 }: {
   items: {
@@ -63,7 +58,7 @@ export const HoverEffect = ({
   );
 };
 
-export const Card = ({
+ const Card = ({
   className,
   children,
 }: {
@@ -83,7 +78,7 @@ export const Card = ({
     </div>
   );
 };
-export const CardTitle = ({
+ const CardTitle = ({
   className,
   children,
 }: {
@@ -96,7 +91,7 @@ export const CardTitle = ({
     </h4>
   );
 };
-export const CardDescription = ({
+ const CardDescription = ({
   className,
   children,
 }: {
