@@ -4,7 +4,7 @@ import FeaturedCoures from '@/components/FeaturedCourses'
 import FeaturedWebinars from '@/components/FeaturedWebinars'
 import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
-import Instucter from '@/components/Instucter'
+
 import WhyChooseUs from '@/components/WhyChooseUs'
 import React from 'react'
 import Testmotion from '@/components/Testmotion'
@@ -20,7 +20,7 @@ const page = () => {
       <WhyChooseUs/>
       <FeaturedWebinars/>
       <Testmotion/>
-      <Instucter/>
+     
       <Footer/>
       
       
