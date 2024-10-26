@@ -1,10 +1,8 @@
 'use client'
 import Image from "next/image";
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card"
 import Link from "next/link";
 import courseData from '@/components/data/code_courses.json'
-
-
 
 
 
@@ -40,10 +38,9 @@ function page() {
                 />
               </CardItem>
               <div className="flex justify-between items-center mt-20">
-                <CardItem
-                >
+                
                   Try now →
-                </CardItem>
+                
                 <CardItem
                   translateZ={20}
                   as="button"
@@ -54,7 +51,11 @@ function page() {
               </div>
             </CardBody>
           </CardContainer>
+
+
+
         ))}
+
 
       </div>
     </div>
