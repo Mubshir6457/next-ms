@@ -8,6 +8,7 @@ import HeroSection from '@/components/HeroSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import React from 'react'
 import Testmotion from '@/components/Testmotion'
+import Instucter from '@/components/instucter'
 
 
 
@@ -20,7 +21,7 @@ const page = () => {
       <WhyChooseUs/>
       <FeaturedWebinars/>
       <Testmotion/>
-     
+      <Instucter/>
       <Footer/>
       
       

@@ -1,6 +1,4 @@
-
-
-    
+  
 {
    
     "courses":[
@@ -10,7 +8,7 @@
             "slug": "game-development",
         "description": "Use generative AI to create dynamic, personalized content and optimize workflows, unlocking creativity and efficiency for advanced users.",
         "price": 99.99,
-        "instructor": "mali",
+        "instructor": "Mubashir",
         "isFeatured": true,
         "image":"/ai-pic.png"
 
@@ -22,7 +20,7 @@
             "slug": "game-development",
         "description": "Level up your Next.js expertise with cutting-edge techniques designed for intermediate to advanced developers.",
         "price": 99.99,
-        "instructor": "mali",
+        "instructor": "Mubashir",
         "isFeatured": false,
         "image":"/next.png"
 
@@ -34,7 +32,7 @@
             "slug": "game-development",
         "description": "Level up your digital marketing skills with advanced strategies and create impactful campaigns from concept to execution.",
         "price": 99.99,
-        "instructor": "mali",
+        "instructor": "Mubashir",
         "isFeatured": true,
         "image":"/digi.png"
 
@@ -46,7 +44,7 @@
             "slug": "game-development",
         "description": "Use Next.js for SEO, dynamic meta tags, fast load times, and personalized content to supercharge your social marketing efforts.",
         "price": 99.99,
-        "instructor": "mali",
+        "instructor": "Mubashir",
         "isFeatured": false,
         "image":"/social.png"
 
@@ -58,7 +56,7 @@
             "slug": "game-development",
         "description": "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
         "price": 99.99,
-        "instructor": "mali",
+        "instructor": "Mubashir",
         "isFeatured": true,
         "image":"/amaz.png"
 
@@ -70,7 +68,7 @@
             "slug": "game-development",
         "description": "Learn the art of jazz improvisation with this course designed for all levels.",
         "price": 99.99,
-        "instructor": "mali",
+        "instructor": "Mubashir",
         "isFeatured": true,
         "image":"/content.png"
 
